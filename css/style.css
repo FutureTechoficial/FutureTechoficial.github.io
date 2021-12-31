@@ -146,7 +146,6 @@ header {
   height: 100%;
   object-fit: cover;
   border-radius: 0.6rem;
-  box-shadow: 1px 1px 8px 1px #ff00408e;
 }
 
 .saludo {
