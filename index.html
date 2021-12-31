@@ -17,9 +17,9 @@
 
   <header>
     <div class="barra__nav">
-      <a href="#" class="logo"> <span class="logo__color">FUTURE</span> TECH</a>
+      <a  data-aos="fade-down" href="#" class="logo"> <span class="logo__color">FUTURE</span> TECH</a>
       <nav>
-        <ul>
+        <ul data-aos="fade-down">
           <li><a class="seccion" href="#">Inicio</a></li>
           <li><a href="#">Portafolio</a></li>
           <li><a href="#">Quien Soy</a></li>
@@ -53,11 +53,11 @@
 
     <div class="cont__header container">
 
-      <div class="imagen__header">
+      <div data-aos="fade-right" class="imagen__header">
         <img src="img/MiFoto.jpg" alt="">
       </div>
 
-      <div class="text__header">
+      <div data-aos="fade-left" class="text__header">
         <h1 class="nombre"><span class="typed"></span></h1>
 
         <h2>Desarrollador Web</h2>
@@ -83,8 +83,8 @@
 
     <section class="about__us container  separador">
 
-      <div class="cont__about__us ">
-        <div class="text__about__us">
+      <div class="cont__about__us" >
+        <div class="text__about__us" data-aos="fade-right">
           <h2 class="tema">Mas Sobre Mi</h2>
           <p class="texto__tema">
             Hola, mucho gusto... me presento, mi nombre es Erick Caceres,
@@ -98,7 +98,7 @@
           </p>
         </div>
 
-        <div class="imagen__about__us">
+        <div class="imagen__about__us" data-aos="fade-left">
           <img src="img/about us.png" alt="">
         </div>
       </div>
@@ -106,22 +106,22 @@
 
     <section class="portafolio container ">
 
-      <div>
+      <div data-aos="fade-right">
         <h2 class="tema">Mi Portafolio</h2>
         <p class="texto__tema">Conoce los Proyectos que he realizado a lo largo de mi carrera en Donde adquiri la
           experiencia necesaria para realizar este portafolio<span class="blanco"></span></p>
       </div>
 
 
-      <div class=" cont__port separador">
+      <div class="cont__port separador">
 
         <div class="target">
 
           <div class="tarjeta">
 
-            <div class="imagen__tarjeta"><img src="img/PROYECT-1/img.jpg" alt=""></div>
+            <div data-aos="fade-right" class="imagen__tarjeta"><img src="img/PROYECT-1/img.jpg" alt=""></div>
 
-            <div class="text__tarjeta">
+            <div class="text__tarjeta" data-aos="fade-left">
               <h3> <span class="logo__color">Nombre :</span> AMIGOS DELIVERY</h3>
               <p class="descripcion__tarjeta"> <span class="logo__color">Descripcion : </span> "Empresa de transporte y
                 flete, dedicada a servicios Delivery en su totalidad"</p>
@@ -144,7 +144,7 @@
 
       <div class="cont__tecnologias container separador">
 
-        <div class="text__tecnologias">
+        <div class="text__tecnologias" data-aos="fade-right" >
           <h2 class="tema">Tecnologías</h2>
 
           <p class="texto__tema">
@@ -164,19 +164,19 @@
         </div>
 
         <div class="imagenes__tecnologias">
-          <div onclick="mostrarhtml()" class="box__tecno">
+          <div data-aos="fade-left" onclick="mostrarhtml()" class="box__tecno">
             <h3>html</h3>
             <img src="img/html.svg" />
           </div>
-          <div onclick="mostrarcss()" class="box__tecno">
+          <div data-aos="fade-left" onclick="mostrarcss()" class="box__tecno">
             <h3>css</h3>
             <img src="img/css.svg" />
           </div>
-          <div onclick="mostrarjs()" class="box__tecno">
+          <div data-aos="fade-left" onclick="mostrarjs()" class="box__tecno">
             <h3>javascript</h3>
             <img src="img/js.svg" />
           </div>
-          <div onclick="mostrarPs()" class="box__tecno">
+          <div data-aos="fade-left" onclick="mostrarPs()" class="box__tecno">
             <h3>Photoshop</h3>
             <img src="img/photoshop.svg" />
           </div>
@@ -198,12 +198,12 @@
 
   <section class="contacto container">
 
-    <div class="cont__contacto">
+    <div data-aos="fade-right" class="cont__contacto">
       <div class="imagen__contacto">
         <img src="img/contactame.png" alt="">
       </div>
 
-      <div class="formulario">
+      <div data-aos="fade-left" class="formulario">
 
 
         <h2 class="tema">Contactame</h2>
@@ -258,9 +258,14 @@
 
   </footer>
 
+  
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
