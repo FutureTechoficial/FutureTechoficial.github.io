@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 
 body {
   font-size: 1.6rem;
@@ -31,6 +31,7 @@ html {
 .container {
   max-width: 105rem;
   margin: 0 auto 0 auto;
+  overflow: hidden;
 }
 
 .wave {
@@ -266,8 +267,8 @@ nav {
   display: grid;
   align-items: center;
   justify-content: center;
-  grid-template-columns: 68% 30%;
-  gap: 2rem;
+  grid-template-columns: 65% 30%;
+  gap: 5%;
 }
 
 /*portfolio*/
@@ -514,6 +515,14 @@ footer .cont__footer {
   opacity: 0;
 }
 
+.barra__ico__nav .ico__sect__name .name__ico {
+  color: white;
+}
+
+.barra__ico__nav .ico__sect__name .icono {
+  color: white;
+}
+
 /*responsive*/
 
 @media screen and (max-width: 1100px) {
@@ -562,7 +571,7 @@ footer .cont__footer {
   }
 
   .portafolio {
-    height:auto;
+    height: auto;
     margin-top: 0rem;
   }
 
@@ -940,7 +949,7 @@ footer .cont__footer {
     width: 0rem;
     opacity: 1;
     right: -100rem;
-    pointer-events:none;
+    pointer-events: none;
   }
 
   .cont__header {
@@ -974,6 +983,14 @@ footer .cont__footer {
     pointer-events: inherit;
   }
 
+  .barra__ico__nav .ico__sect__name .name__ico {
+    color: var(--color__texto);
+  }
+
+  .barra__ico__nav .ico__sect__name .icono {
+    color: var(--color__texto);
+  }
+
   .ico__sect__name {
     padding: 1rem 5% 1rem 5%;
     display: flex;
@@ -1000,7 +1017,6 @@ footer .cont__footer {
   footer {
     height: 30vh;
   }
-
 }
 
 @media screen and (max-width: 645px) {
@@ -1016,29 +1032,28 @@ footer .cont__footer {
     align-items: center;
   }
 
-  
-  .cont__port .target .tarjeta{
+  .cont__port .target .tarjeta {
     height: auto;
-     display: block;
-   }
- 
-   .cont__port .target .tarjeta .imagen__tarjeta{
-     height: 32rem;
-   }
- 
-   .cont__port .target .tarjeta .imagen__tarjeta img{
-     height: 30rem;
-     border-radius: 0.1rem;
-   }
+    display: block;
+  }
 
-   .cont__port .target .tarjeta .text__tarjeta{
+  .cont__port .target .tarjeta .imagen__tarjeta {
+    height: 32rem;
+  }
+
+  .cont__port .target .tarjeta .imagen__tarjeta img {
+    height: 30rem;
+    border-radius: 0.1rem;
+  }
+
+  .cont__port .target .tarjeta .text__tarjeta {
     padding: 2rem;
   }
 
-   .target{
-     border: solid #ffffff6e 1px;
-     border-radius: 0.1rem;
-   }
+  .target {
+    border: solid #ffffff6e 1px;
+    border-radius: 0.1rem;
+  }
 }
 
 @media screen and (max-width: 698px) {
@@ -1046,17 +1061,16 @@ footer .cont__footer {
     height: 77rem;
   }
 
-  .portafolio{
+  .portafolio {
     height: auto;
   }
 
-  .cont__port .target .tarjeta{
+  .cont__port .target .tarjeta {
     grid-template-columns: 50% 50%;
     margin-top: 0;
     margin-bottom: 2rem;
   }
 }
-
 
 @media screen and (max-width: 606px) {
   .imagenes__tecnologias {
@@ -1067,25 +1081,25 @@ footer .cont__footer {
     height: 100rem;
   }
 
-  .portafolio{
+  .portafolio {
     height: auto;
   }
 
-  .cont__port .target .tarjeta{
-   height: auto;
+  .cont__port .target .tarjeta {
+    height: auto;
     display: block;
   }
 
-  .cont__port .target .tarjeta .imagen__tarjeta{
+  .cont__port .target .tarjeta .imagen__tarjeta {
     height: 32rem;
   }
 
-  .cont__port .target .tarjeta .imagen__tarjeta img{
+  .cont__port .target .tarjeta .imagen__tarjeta img {
     height: 30rem;
   }
 }
 
-@media screen and (max-width: 552px){
+@media screen and (max-width: 552px) {
   .cont__port .target .tarjeta {
     display: block;
     margin: 0;
@@ -1101,13 +1115,12 @@ footer .cont__footer {
     width: 100%;
   }
 
-  .cont__port .target{
+  .cont__port .target {
     margin-top: 5rem;
   }
 }
 
 @media screen and (max-width: 541px) {
-
   .cont__port .target .tarjeta {
     display: block;
     margin: 0;
@@ -1137,8 +1150,6 @@ footer .cont__footer {
   .portafolio {
     height: auto;
   }
-
-  
 }
 
 @media screen and (max-width: 589px) {
@@ -1206,25 +1217,25 @@ footer .cont__footer {
     height: auto;
   }
 
-  .portafolio .cont__port .tarjeta h3{
+  .portafolio .cont__port .tarjeta h3 {
     text-align: center;
   }
 
-  .portafolio .cont__port .tarjeta .descripcion__tarjeta{
+  .portafolio .cont__port .tarjeta .descripcion__tarjeta {
     text-align: center;
   }
 
-  .botones__juntos{
+  .botones__juntos {
     display: inline-block;
     text-align: center;
     width: 100%;
   }
 
-  .enlace{
+  .enlace {
     margin-bottom: 2rem;
   }
 
-  .enlace a{
+  .enlace a {
     margin: 0;
   }
 }
@@ -1253,34 +1264,33 @@ footer .cont__footer {
     height: 40rem;
   }
 
-  
   .tecnologias {
     margin-top: 1rem;
   }
 
-  .portafolio{
+  .portafolio {
     margin-top: 2rem;
   }
 
-  .portafolio .cont__port .tarjeta h3{
+  .portafolio .cont__port .tarjeta h3 {
     text-align: center;
   }
 
-  .portafolio .cont__port .tarjeta .descripcion__tarjeta{
+  .portafolio .cont__port .tarjeta .descripcion__tarjeta {
     text-align: center;
   }
 
-  .botones__juntos{
+  .botones__juntos {
     display: inline-block;
     text-align: center;
     width: 100%;
   }
 
-  .enlace{
+  .enlace {
     margin-bottom: 2rem;
   }
 
-  .enlace a{
+  .enlace a {
     margin: 0;
   }
 }
@@ -1331,7 +1341,7 @@ footer .cont__footer {
 
   .portafolio {
     margin-top: 1rem;
-    height: auto
+    height: auto;
   }
 
   .portafolio .tarjeta .imagen__tarjeta img {
@@ -1378,11 +1388,11 @@ footer .cont__footer {
     margin: auto auto;
   }
 
-  header{
+  header {
     height: 90rem;
   }
 
-  .portafolio{
+  .portafolio {
     height: auto;
   }
 }
