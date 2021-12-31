@@ -146,6 +146,7 @@ header {
   height: 100%;
   object-fit: cover;
   border-radius: 0.6rem;
+  box-shadow: 1px 1px 8px 1px #ff00408e;
 }
 
 .saludo {
@@ -1069,6 +1070,14 @@ footer .cont__footer {
   .target {
     border: solid var(--color__principal) 1px;
     border-radius: 0.1rem;
+    box-shadow: 0px 0px 10px 1px #ff004088;
+    width: 97%;
+    margin: auto;
+    transition: ease .2s all;
+  }
+
+  .target:hover{
+    transform: translateY(-1rem);
   }
 
   .tecnologias{
@@ -1221,14 +1230,14 @@ footer .cont__footer {
     height: auto;
   }
 
-  .portafolio .cont__port .tarjeta h3 {
+  /* .portafolio .cont__port .tarjeta h3 {
     text-align: center;
   }
 
   .portafolio .cont__port .tarjeta .descripcion__tarjeta {
     text-align: center;
-  }
-
+  } */
+/* 
   .botones__juntos {
     display: inline-block;
     text-align: center;
@@ -1241,7 +1250,7 @@ footer .cont__footer {
 
   .enlace a {
     margin: 0;
-  }
+  } */
 }
 
 @media screen and (max-width: 432px) {
