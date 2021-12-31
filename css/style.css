@@ -939,7 +939,7 @@ footer .cont__footer {
   }
 
   .tecnologias {
-    margin-top: 0;
+    margin-top: 3rem;
   }
 }
 
@@ -1019,6 +1019,22 @@ footer .cont__footer {
   }
 }
 
+@media screen and (max-width: 698px) {
+  .tecnologias {
+    height: 77rem;
+  }
+
+  .portafolio {
+    height: auto;
+  }
+
+  .cont__port .target .tarjeta {
+    grid-template-columns: 50% 50%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 645px) {
   .tarjeta .imagen__tarjeta img {
     height: 15rem;
@@ -1051,24 +1067,12 @@ footer .cont__footer {
   }
 
   .target {
-    border: solid #ffffff6e 1px;
+    border: solid var(--color__principal) 1px;
     border-radius: 0.1rem;
   }
-}
 
-@media screen and (max-width: 698px) {
-  .tecnologias {
-    height: 77rem;
-  }
-
-  .portafolio {
-    height: auto;
-  }
-
-  .cont__port .target .tarjeta {
-    grid-template-columns: 50% 50%;
-    margin-top: 0;
-    margin-bottom: 2rem;
+  .tecnologias{
+    margin-top: 6rem;
   }
 }
 
