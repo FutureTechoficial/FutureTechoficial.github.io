@@ -1310,6 +1310,10 @@ footer .cont__footer {
     height: auto;
   }
 
+  .port__sect{
+    margin-top: 0;
+  }
+
   .portafolio .container p {
     padding-bottom: 0rem;
   }
@@ -1357,6 +1361,10 @@ footer .cont__footer {
   .enlace a {
     margin: 0;
   }
+
+  .port__sect{
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -1367,6 +1375,10 @@ footer .cont__footer {
 
   .tecnologias {
     margin-top: 1rem;
+  }
+
+  .port__sect{
+    margin-top: 0;
   }
 }
 
@@ -1434,6 +1446,10 @@ footer .cont__footer {
   .contacto__personal {
     height: 70vh;
   }
+
+  .port__sect{
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 361px) {
@@ -1463,6 +1479,10 @@ footer .cont__footer {
 
   header .cont__port .imagen__header img:hover{
       border-radius: 1rem;
+  }
+
+  .port__sect{
+    margin-top: 0;
   }
 }
 
@@ -1548,6 +1568,10 @@ footer .cont__footer {
   .ico__sect__name .name__ico {
     font-size: 1.2rem;
   }
+
+  .port__sect{
+    margin-top: 0;
+  }
 }
 
 @media screen and (max-width: 260px) {
@@ -1557,5 +1581,9 @@ footer .cont__footer {
 
   .barra__nav .logo {
     font-size: 3rem;
+  }
+
+  .port__sect{
+    margin-top: 0;
   }
 }
