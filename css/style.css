@@ -40,6 +40,12 @@ html {
   bottom: 0;
 }
 
+.wave__2{
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
 .tema {
   font-size: 8rem;
   color: var(--color__principal);
@@ -128,10 +134,9 @@ header {
 }
 
 .cont__header {
-  padding-top: 16rem;
+  padding-top: 20rem;
   display: grid;
-  grid-template-columns: 33% 57%;
-  grid-template-rows: 50rem;
+  grid-template-columns: 36% 57%;
   gap: 5rem;
   justify-content: center;
 }
@@ -144,7 +149,7 @@ header {
 .cont__header .imagen__header img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 0.6rem;
 }
 
@@ -517,10 +522,21 @@ footer .cont__footer {
 
 .barra__ico__nav .ico__sect__name .name__ico {
   color: white;
+  opacity: 0;
 }
 
 .barra__ico__nav .ico__sect__name .icono {
   color: white;
+  opacity: 0;
+}
+
+.alto{
+  padding-top: 23rem;
+}
+
+.contacto__sect{
+  margin-top: 0;
+  padding-top: 15rem;
 }
 
 /*responsive*/
@@ -585,12 +601,13 @@ footer .cont__footer {
   }
 
   .contacto__personal {
-    height: 60vh;
+    height: 50rem;
   }
 
   .separador {
     padding-bottom: 5rem;
   }
+
 }
 
 @media screen and (max-width: 938px) {
@@ -600,6 +617,11 @@ footer .cont__footer {
 
   .saludo {
     font-size: 4.3rem;
+  }
+
+  .contacto__sect{
+    margin-top: 0;
+    padding-top: 10rem;
   }
 }
 
@@ -614,9 +636,8 @@ footer .cont__footer {
 
   .cont__header {
     padding-top: 4rem;
-    grid-template-columns: 30% 60%;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 50rem;
-    gap: 10%;
     justify-content: center;
     align-items: center;
   }
@@ -626,9 +647,9 @@ footer .cont__footer {
   }
 
   .cont__header .imagen__header img {
-    border-radius: 50rem;
-    height: 28rem;
-    width: 28rem;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover;  */
   }
 
   .saludo {
@@ -654,7 +675,11 @@ footer .cont__footer {
   }
 
   .contacto__personal {
-    height: 35rem;
+    height: 45rem;
+  }
+
+  .cont__header .imagen__section .img{
+     border-radius: 0.1rem;
   }
 }
 
@@ -668,12 +693,12 @@ footer .cont__footer {
   }
 
   .cont__header {
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 40% 60%;
   }
 
   .cont__header .imagen__header img {
-    width: 28rem;
-    height: 28rem;
+    width: 100%;
+    height: 100%;
   }
 
   .text__header h2 {
@@ -803,6 +828,10 @@ footer .cont__footer {
     margin-top: 6rem;
   }
 
+  .port__sect{
+    margin-top: 0;
+  }
+
   .portafolio h2 {
     text-align: center;
   }
@@ -877,11 +906,11 @@ footer .cont__footer {
   }
 
   .contacto__personal {
-    height: 60vh;
+    height: 45rem;
   }
 }
 
-@media screen and (max-width: 778px) {
+@media screen and (max-width: 784px) {
   .tarjeta .imagen__tarjeta {
     width: 100%;
     height: 20rem;
@@ -894,7 +923,7 @@ footer .cont__footer {
   }
 
   .contacto__personal {
-    height: 35rem;
+    height: 45rem;
     margin-top: 2;
   }
 
@@ -910,8 +939,8 @@ footer .cont__footer {
   }
 
   .cont__header .imagen__header img {
-    width: 23rem;
-    height: 23rem;
+    width: 28rem;
+    height: 28rem;
   }
 
   header {
@@ -931,7 +960,7 @@ footer .cont__footer {
   }
 
   .portafolio .tarjeta {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 45% 50%;
   }
 
   .separador {
@@ -985,10 +1014,12 @@ footer .cont__footer {
 
   .barra__ico__nav .ico__sect__name .name__ico {
     color: var(--color__texto);
+    opacity: 1;
   }
 
   .barra__ico__nav .ico__sect__name .icono {
     color: var(--color__texto);
+    opacity: 1;
   }
 
   .ico__sect__name {
@@ -1067,9 +1098,9 @@ footer .cont__footer {
   }
 
   .target {
-    border: solid var(--color__principal) 1px;
+    border: solid rgba(175, 175, 175, 0.336) 1px;
     border-radius: 0.1rem;
-    box-shadow: 0px 0px 10px 1px #ff004088;
+    box-shadow: 0px 0px 5px 0px #55545456;
     width: 97%;
     margin: auto;
     transition: ease .2s all;
@@ -1140,6 +1171,7 @@ footer .cont__footer {
   .cont__header .imagen__header img {
     width: 27rem;
     height: 27rem;
+    transition: ease .2s all;
   }
 
   .cont__header .imagen__header {
@@ -1180,6 +1212,26 @@ footer .cont__footer {
     font-size: 4rem;
     max-width: 100%;
   }
+
+  button span{
+    font-size: 2rem;
+  }
+
+  button .boton__azul{
+    font-size: 2rem;
+  }
+
+  .enlace button span .boton__azul{
+    font-size: 2rem;
+  }
+
+  button:hover span {
+    font-size: 2rem;
+  }  
+
+  button:hover .boton__azul {
+    font-size: 2rem;
+  }  
 }
 
 @media screen and (max-width: 489px) {
@@ -1337,6 +1389,7 @@ footer .cont__footer {
 
   .text__header h2 {
     font-size: 2.5rem;
+    margin-top: 1rem;
   }
 
   .text__header p {
@@ -1365,7 +1418,7 @@ footer .cont__footer {
   }
 
   .imagenes__tecnologias {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 47%);
   }
 
   .inputs {
@@ -1406,6 +1459,10 @@ footer .cont__footer {
 
   .portafolio {
     height: auto;
+  }
+
+  header .cont__port .imagen__header img:hover{
+      border-radius: 1rem;
   }
 }
 
