@@ -1090,7 +1090,7 @@ footer .cont__footer {
 
   .cont__port .target .tarjeta .imagen__tarjeta img {
     height: 30rem;
-    border-radius: 0.1rem;
+    border-radius: 1rem;
   }
 
   .cont__port .target .tarjeta .text__tarjeta {
@@ -1099,7 +1099,7 @@ footer .cont__footer {
 
   .target {
     border: solid rgba(175, 175, 175, 0.336) 1px;
-    border-radius: 0.1rem;
+    border-radius: 1rem;
     box-shadow: 0px 0px 5px 0px #55545456;
     width: 97%;
     margin: auto;
