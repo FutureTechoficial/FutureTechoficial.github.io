@@ -1082,6 +1082,7 @@ footer .cont__footer {
   .cont__port .target .tarjeta {
     height: auto;
     display: block;
+    padding: 0.5rem;
   }
 
   .cont__port .target .tarjeta .imagen__tarjeta {
@@ -1090,10 +1091,7 @@ footer .cont__footer {
 
   .cont__port .target .tarjeta .imagen__tarjeta img {
     height: 30rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 0rem;
-    border-bottom-right-radius: 0rem;
+    
   }
 
   .cont__port .target .tarjeta .text__tarjeta {
