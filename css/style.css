@@ -1099,9 +1099,9 @@ footer .cont__footer {
   }
 
   .target {
-    border: solid rgba(175, 175, 175, 0.336) 1px;
+    /* border: solid rgba(175, 175, 175, 0.336) 1px; */
     border-radius: 1rem;
-    box-shadow: 0px 0px 5px 0px #55545456;
+    box-shadow: 0px 0px 7px 0px #010113a2;
     width: 97%;
     margin: auto;
     transition: ease .2s all;
